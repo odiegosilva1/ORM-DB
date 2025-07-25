@@ -4,20 +4,20 @@ db = SqliteDatabase('freelancers.db')
 
 
 # User Table
-class Users(Model):
-  name = CharField()
+class Usuario(Model):
+  nome = CharField()
   email = CharField(unique=True)
-  pwd = CharField()
+  senha = CharField()
 
-  class Metas:
+  class Meta:
       database = db
 
 
 # announcement table
-class Announcement(Model):
-   user = ForeignKeyField(User, backref='users') # type: ignore
-   title = CharField()
-   description = TextField()
+class Anuncio(Model):
+   usuario = ForeignKeyField(Usuario, backref='usuarios')
+   titulo = CharField()
+   descricao = TextField()
    valor = DecimalField()
 
    class Meta:
