@@ -24,8 +24,6 @@ Um projeto Python que utiliza o ORM **Peewee** para gerenciar um banco de dados 
    ```  
 2. Execute `main.py` para criar o banco de dados e as tabelas.  
 
-🔗 **GitHub:**  
-[github.com/seu-usuario/ORM-DB](https://github.com/odiegosilva1/ORM-DB)    
 
 ---
 
