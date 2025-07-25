@@ -29,5 +29,4 @@ Um projeto Python que utiliza o ORM **Peewee** para gerenciar um banco de dados 
 
 ---
 
-💡 **Dica:**  
-Personalize os modelos e adicione mais funcionalidades conforme sua necessidade! 🛠️ 
+
