@@ -1,4 +1,4 @@
-# 📁 ORM-DB - Gerenciamento de Banco de Dados com Peewee e SQLite  
+# 📁 ORM-DB - Gerenciamento de Banco de Dados com Peewee e SQLite   
 
 🚀 **Descrição:**  
 Um projeto Python que utiliza o ORM **Peewee** para gerenciar um banco de dados **SQLite**, criando e manipulando tabelas de **usuários** e **anúncios** de forma eficiente e organizada.  
